@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+.griot-theatre {
+    color: white;
+}
+
+.top-container {
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+       
+}
+
+
+.logo {
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu a {
+    margin: 0 75px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.center-text {
+    margin: 0;
+    font-size: 1.5em;
+    color: white;
+}
+.top-container h1 {
+    margin-bottom: 10px;
+    
+    
+}
+
+.top-container p {
+    font-style: italic;
+    color: white;
+}
+
+.header {
+    background-color: black;
+    color: black;
+    padding: 20px;
+    text-align: center; 
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.image-container {
+    
+    overflow: hidden;
+
+}
+
+.larger-image {
+    width: 100%;
+    height: auto;
+     
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.overlay-text h2 {
+    font-size: 5em;
+    font-weight: bold;
+    font-family: "sans-serif";
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.play-info {
+    margin: 20px;
+    
+}
+
+h1 {
+    font size: 24px;
+
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    
+
+}
+
+.venue-info {
+    margin-top: 20px;
+
+}
+
+.venue-address {
+    font-style: italic;
+
+}
+
+ticket-price {
+    font-weight: bold;
+    color: #FF0000;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+    position: relative;
+}
+
+.grid-content {
+    display: flex;
+    flex-direction: column;
+    
+}
+.grid-item img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.grid-item p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.content-container{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.read-more {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin-top: auto;
+    align-self: flex-end;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.read-more:hover {
+    background-color: black;
+}
+image {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 10px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10x;
+    text-align: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
